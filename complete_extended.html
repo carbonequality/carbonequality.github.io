@@ -1,0 +1,182 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <main class="main main__account">
+    <header class="header__account">
+        <div class="header__account--left">
+            <div class="logo">
+                <a href="account.html">
+                    <img src="img/logo-black.svg" alt="logo-black">
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <img src="img/search.svg" alt="search">
+            </div>
+        </div>
+        <div class="header__account--right">
+            <div class="header__action">
+                <a href="#" class="header__action--item">
+                    <img src="img/mail.svg" alt="mail">
+                </a>
+                <a href="#" class="header__action--item">
+                    <img src="img/dark_mode.svg" alt="dark_mode">
+                </a>
+                <a href="#" class="header__action--item">
+                    <img src="img/notification.svg" alt="notification">
+                </a>
+            </div>
+            <div class="header__auth">
+                <a href="#" class="header__auth--item">
+                    <img src="img/profile.svg" alt="profile">
+                </a>
+                <a href="#" class="header__auth--item">
+                    <img src="img/quit-black.svg" alt="quit">
+                    Log Out
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main__account--info">
+        <section class="sidebar">
+            <div class="sidebar__menu">
+                <a href="account.html" class="sidebar__menu--item">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Wallet
+                    </div>
+                </a>
+                <a href="buy.html" class="sidebar__menu--item">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Buy
+                    </div>
+                </a>
+                <a href="cancel.html" class="sidebar__menu--item">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Cancel DCRT
+                    </div>
+                </a>
+                <a href="reports.html" class="sidebar__menu--item">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Reports
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="main__account--content">
+            <div class="main__account--top">
+                <a href="#" class="back">
+                    <img src="img/arrow-back.svg" alt="arrow-back">
+                    Back
+                </a>
+            </div>
+            <section class="auth reg reg-complete">
+                <form action="#" class="form auth__form">
+                    <div class="reg__subtitle">Сomplete extended registration</div>
+                    <div class="reg__inputs">
+                        <input type="text" placeholder="фамилия представителя компании*" class="reg__form--input" required>
+                        <input type="text" placeholder="его личная идентификация*" class="reg__form--input" required>
+                        <input type="text" placeholder="документ, на каком основании он представляет компанию*" class="reg__form--input" required>
+                        <input type="text" placeholder="City*" class="reg__form--input" required>
+                        <input type="text" placeholder="Index*" class="reg__form--input" required>
+                        <input type="text" placeholder="Number of employees" class="reg__form--input">
+                        <input type="text" placeholder="Сompany web-site" class="reg__form--input">
+                        <input type="text" placeholder="Сompany's business area" class="reg__form--input">
+                        <input type="text" placeholder="Total annual profit" class="reg__form--input">
+                        <div class="reg__required">* - required fields</div>
+                    </div>
+                    <div class="reg__complete">
+                        <div class="complete__doc">
+                            <div class="complete__doc--title">Download the following documents</div>
+                            <div class="complete__doc--text">
+                                <p>
+                                    Please take and download a photo of your document that you provided during registration.
+                                </p>
+                                <p>
+                                    Make sure the photo is of good quality and clearly shows your entire document (including photo, number, expiration date on it) 
+                                </p>
+                            </div>
+                            <div class="complete__doc--upload">
+                                <label class="input-file">
+                                    <input type="file" name="file">		
+                                    <span>Download a photo</span>
+                              </label>
+                            </div>
+                        </div>
+                        <div class="complete__doc">
+                            <div class="complete__doc--text">
+                                <p>
+                                    Please take and download a photo of you and your document that you provided during registration.
+                                </p>
+                                <p>
+                                    Make sure the photo is of good quality and clearly shows your entire face and your entire document (including photo, number, expiration date on it) 
+                                </p>
+                            </div>
+                            <div class="complete__doc--upload">
+                                <label class="input-file">
+                                    <input type="file" name="file">		
+                                    <span>Download a photo</span>
+                              </label>
+                            </div>
+                        </div>
+                        <div class="complete__doc">
+                            <div class="complete__doc--text">
+                                <p>
+                                    Please take and download a photo a photo of your document that you provided during registration with the current date.
+                                </p>
+                            </div>
+                            <div class="complete__doc--upload">
+                                <label class="input-file">
+                                    <input type="file" name="file">		
+                                    <span>Download a photo</span>
+                              </label>
+                            </div>
+                        </div>
+                        <div class="reg__form--checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" checked />
+                            <label for="privacy">I have read and agreed with the terms and conditions and regisrty service agreement</label>
+                        </div>
+                        <div class="reg__form--links">
+                            <a href="#">Terms and conditions</a>
+                            <a href="#">Registry services agreement</a>
+                        </div>
+                        <div class="reg__form--checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" checked />
+                            <label for="privacy">consent field</label>
+                        </div>
+                        <button class="btn btn--primary reg__form--btn">Подтвердить</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </div>
+  </main>
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

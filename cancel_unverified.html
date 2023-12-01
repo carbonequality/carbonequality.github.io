@@ -1,0 +1,479 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <main class="main main__account">
+    <header class="header__account">
+        <div class="header__account--left">
+            <div class="logo">
+                <a href="account.html">
+                    <img src="img/logo-black.svg" alt="logo-black">
+                </a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <img src="img/search.svg" alt="search">
+            </div>
+        </div>
+        <div class="header__account--right">
+            <div class="header__action">
+                <a href="#" class="header__action--item">
+                    <img src="img/mail.svg" alt="mail">
+                </a>
+                <a href="#" class="header__action--item">
+                    <img src="img/dark_mode.svg" alt="dark_mode">
+                </a>
+                <a href="#" class="header__action--item">
+                    <img src="img/notification.svg" alt="notification">
+                </a>
+            </div>
+            <div class="header__auth">
+                <a href="#" class="header__auth--item">
+                    <img src="img/profile.svg" alt="profile">
+                </a>
+                <a href="#" class="header__auth--item">
+                    <img src="img/quit-black.svg" alt="quit">
+                    Log Out
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main__account--info">
+        <section class="sidebar">
+            <div class="sidebar__menu">
+                <a href="account.html" class="sidebar__menu--item">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Wallet
+                    </div>
+                </a>
+                <a href="buy.html" class="sidebar__menu--item">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Buy
+                    </div>
+                </a>
+                <a href="cancel.html" class="sidebar__menu--item active">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Cancel DCRT
+                    </div>
+                </a>
+                <a href="reports.html" class="sidebar__menu--item">
+                    <div class="sidebar__menu--icon"></div>
+                    <div class="sidebar__menu--text">
+                        Reports
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="main__account--content">
+            <div class="main__account--top">
+                <a href="#" class="back">
+                    <img src="img/arrow-back.svg" alt="arrow-back">
+                    Back
+                </a>
+            </div>
+            <div class="cancel__content">
+                <div class="cancel__content--left">
+                    <div class="cancellation">
+                        <div class="cancellation__tabs">
+                            <div class="cancellation__tab">
+                                <input type="checkbox" id="chck1">
+                                <label class="cancellation__label" for="chck1">Your emission and carbon footprint cancellation</label>
+                                <div class="cancellation__content">
+                                  <div class="amount">
+                                      <div class="amount__top">
+                                          <span>Available amount DCRT to cancel</span>
+                                          <div class="amount__example">
+                                              2345,987
+                                              <div class="type">
+                                                  DCRT
+                                                  <button>
+                                                      <img src="img/plus-price.svg" alt="plus">
+                                                  </button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="order__info--price">
+                                          <div class="order__info--input">
+                                              <input type="text" value="000.00" placeholder="000.00">
+                                              <span>DCRT</span>
+                                          </div>
+                                          <div class="order__info--subtitle">
+                                              Enter here amount of DCRT to cancel
+                                          </div>
+                                      </div>
+                                      <div class="amount__top">
+                                          <span>Available amount DCRT to cancel</span>
+                                          <div class="amount__example">
+                                              2345,987
+                                              <div class="type">
+                                                  DCRT
+                                                  <button>
+                                                      <img src="img/plus-price.svg" alt="plus">
+                                                  </button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="amount__comission">
+                                          <div class="amount__comission--left">
+                                              <div class="amount__comission--title">
+                                                  Comission
+                                              </div>
+                                              <div class="amount__comission--price">
+                                                  00,00
+                                              </div>
+                                          </div>
+                                          <div class="amount__comission--right">
+                                              USDT
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="connect">
+                                      <div class="connect__title">
+                                          Select your emission report
+                                      </div>
+                                      <div class="connect__change">
+                                          <span>Do you have your emission report?</span>
+                                          <div class="connect__change--action">
+                                              <span>No</span>
+                                              <div class="connect__change--switch"></div>
+                                              <span>Yes</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="connect__info">
+                                      <div class="connect__select">
+                                          <select name="select" id="select">
+                                              <option value="1">Report</option>
+                                          </select>
+                                      </div>
+                                      <span class="connect__subtext">Choose report that you want to connect this cancelation</span>
+                                      <div class="connect__rd">
+                                          <div class="connect__rd--title">
+                                              Report data:
+                                          </div>
+                                          <div class="connect__rd--table">
+                                              <div class="connect__rd--row">
+                                                  <div class="connect__rd--text">
+                                                      Emission
+                                                  </div>
+                                                  <div class="connect__rd--number">
+                                                      00,00
+                                                  </div>
+                                                  <div class="connect__rd--percent">
+                                                      CU
+                                                  </div>
+                                              </div>
+                                              <div class="connect__rd--row">
+                                                  <div class="connect__rd--text">
+                                                      Covered amount after cancelation 
+                                                  </div>
+                                                  <div class="connect__rd--number">
+                                                      00,00
+                                                  </div>
+                                                  <div class="connect__rd--percent">
+                                                      CU
+                                                  </div>
+                                              </div>
+                                              <div class="connect__rd--row">
+                                                  <div class="connect__rd--text">
+                                                      Covered persantage after cancelation 
+                                                  </div>
+                                                  <div class="connect__rd--number">
+                                                      0,00
+                                                  </div>
+                                                  <div class="connect__rd--percent">
+                                                      %
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="nft">
+                                      <div class="nft__title">
+                                          Initiative’s NFT certificate confirming your awareness
+                                      </div>
+                                      <div class="ntf__checkbox--list">
+                                          <div class="card__checkbox ntf__checkbox">
+                                              <input type="checkbox" name="checkbox" value="1" class="card__checkbox--input ntf__checkbox--input" id="nft">
+                                              <label class="card__checkbox--label" for="nft">Get <a href="#">personalized NFT</a> on your wallet</label>
+                                          </div>
+                                          <div class="card__checkbox--sub">
+                                              <span>Include the following information in NFT:</span>
+                                              <div class="card__checkbox">
+                                                  <input type="checkbox" name="checkbox" value="2" class="card__checkbox--input" id="offset">
+                                                  <label class="card__checkbox--label" for="offset">Offset percentages</label>
+                                              </div>
+                                              <div class="card__checkbox">
+                                                  <input type="checkbox" name="checkbox" value="3" class="card__checkbox--input" id="amount">
+                                                  <label class="card__checkbox--label" for="amount">Amount cancelled</label>
+                                              </div>
+                                          </div>
+                                          <div class="card__checkbox">
+                                              <input type="checkbox" name="checkbox" value="4" class="card__checkbox--input" id="send">
+                                              <label class="card__checkbox--label" for="send">Send achievement on email</label>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="cancellation__btn">
+                                      <button>Cancel 000.00 DCRT</button>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="cancellation__tab">
+                                <input type="checkbox" id="chck2">
+                                <label class="cancellation__label" for="chck2">Cancellation of product/service carbon footprint</label>
+                                <div class="cancellation__content">
+                                  <div class="amount">
+                                      <div class="amount__top">
+                                          <span>Available amount DCRT to cancel</span>
+                                          <div class="amount__example">
+                                              2345,987
+                                              <div class="type">
+                                                  DCRT
+                                                  <button>
+                                                      <img src="img/plus-price.svg" alt="plus">
+                                                  </button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="order__info--price">
+                                          <div class="order__info--input">
+                                              <input type="text" value="000.00" placeholder="000.00">
+                                              <span>DCRT</span>
+                                          </div>
+                                          <div class="order__info--subtitle">
+                                              Enter here amount of DCRT to cancel
+                                          </div>
+                                      </div>
+                                      <div class="amount__top">
+                                          <span>Available amount DCRT to cancel</span>
+                                          <div class="amount__example">
+                                              2345,987
+                                              <div class="type">
+                                                  DCRT
+                                                  <button>
+                                                      <img src="img/plus-price.svg" alt="plus">
+                                                  </button>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="amount__comission">
+                                          <div class="amount__comission--left">
+                                              <div class="amount__comission--title">
+                                                  Comission
+                                              </div>
+                                              <div class="amount__comission--price">
+                                                  00,00
+                                              </div>
+                                          </div>
+                                          <div class="amount__comission--right">
+                                              USDT
+                                          </div>
+                                      </div>
+                                      <div class="amount__textarea">
+                                          <textarea></textarea>
+                                          <span>Enter the product details and specification</span>
+                                      </div>
+                                  </div>
+                                  <div class="connect">
+                                      <div class="connect__title">
+                                          Select your emission report to proceed
+                                      </div>
+                                      <div class="connect__change">
+                                          <span>Do you have Footprint report?</span>
+                                          <div class="connect__change--action">
+                                              <span>No</span>
+                                              <div class="connect__change--switch"></div>
+                                              <span>Yes</span>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="connect__info">
+                                      <div class="connect__select">
+                                          <select name="select" id="select">
+                                              <option value="1">Report</option>
+                                          </select>
+                                      </div>
+                                      <span class="connect__subtext">Choose report that you want to connect this cancelation</span>
+                                      <div class="connect__rd">
+                                          <div class="connect__rd--title">
+                                              Report data:
+                                          </div>
+                                          <div class="connect__rd--table">
+                                              <div class="connect__rd--row">
+                                                  <div class="connect__rd--text">
+                                                      Emission
+                                                  </div>
+                                                  <div class="connect__rd--number">
+                                                      00,00
+                                                  </div>
+                                                  <div class="connect__rd--percent">
+                                                      CO2e
+                                                  </div>
+                                              </div>
+                                              <div class="connect__rd--row">
+                                                  <div class="connect__rd--text">
+                                                      Amount to cancel 
+                                                  </div>
+                                                  <div class="connect__rd--number">
+                                                      00,00
+                                                  </div>
+                                                  <div class="connect__rd--percent">
+                                                      CO2e
+                                                  </div>
+                                              </div>
+                                              <div class="connect__rd--row">
+                                                  <div class="connect__rd--text">
+                                                      Share canceled  
+                                                  </div>
+                                                  <div class="connect__rd--number">
+                                                      0,00
+                                                  </div>
+                                                  <div class="connect__rd--percent">
+                                                      %
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="nft">
+                                      <div class="nft__title">
+                                          Initiative’s NFT certificate confirming your awareness
+                                      </div>
+                                      <div class="ntf__checkbox--list">
+                                          <div class="card__checkbox ntf__checkbox">
+                                              <input type="checkbox" name="checkbox" value="1" class="card__checkbox--input ntf__checkbox--input" id="nft-2">
+                                              <label class="card__checkbox--label" for="nft-2">Get <a href="#">personalized NFT</a> on your wallet</label>
+                                          </div>
+                                          <div class="card__checkbox--sub">
+                                              <span>Include the following information in NFT:</span>
+                                              <div class="card__checkbox">
+                                                  <input type="checkbox" name="checkbox" value="2" class="card__checkbox--input" id="offset-2">
+                                                  <label class="card__checkbox--label" for="offset-2">Offset percentages</label>
+                                              </div>
+                                              <div class="card__checkbox">
+                                                  <input type="checkbox" name="checkbox" value="3" class="card__checkbox--input" id="amount-2">
+                                                  <label class="card__checkbox--label" for="amount-2">Amount cancelled</label>
+                                              </div>
+                                          </div>
+                                          <div class="card__checkbox">
+                                              <input type="checkbox" name="checkbox" value="4" class="card__checkbox--input" id="send-2">
+                                              <label class="card__checkbox--label" for="send-2">Send achievement on email</label>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="cancellation__btn">
+                                      <button>Cancel 000.00 DCRT</button>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="cancellation__tab">
+                              <input type="checkbox" id="chck3">
+                              <label class="cancellation__label" for="chck3">Cancellation in favor of the Earth</label>
+                              <div class="cancellation__content">
+                                <div class="amount">
+                                    <div class="amount__top">
+                                        <span>Available amount DCRT to cancel</span>
+                                        <div class="amount__example">
+                                            2345,987
+                                            <div class="type">
+                                                DCRT
+                                                <button>
+                                                    <img src="img/plus-price.svg" alt="plus">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order__info--price">
+                                        <div class="order__info--input">
+                                            <input type="text" value="000.00" placeholder="000.00">
+                                            <span>DCRT</span>
+                                        </div>
+                                        <div class="order__info--subtitle warning">
+                                            Enter here amount of DCRT to cancel
+                                        </div>
+                                        <div class="order__info--warning">
+                                            To cancel more then 50 DCRT you need to complete <span>extended registration</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nft">
+                                    <div class="nft__title">
+                                        Initiative’s NFT certificate confirming your awareness
+                                    </div>
+                                    <div class="ntf__checkbox--list">
+                                        <div class="pay__tabs--radio">
+                                            <input type="radio" name="radio" value="1" class="pay__radio" id="nft-3">
+                                            <label class="pay__tabs--label" for="nft-3">Get <a href="#">unamed NFT</a> on your wallet</label>
+                                        </div>
+                                        <div class="pay__tabs--radio">
+                                            <input type="radio" name="radio" value="1" class="pay__radio" id="nft-4">
+                                            <label class="pay__tabs--label" for="nft-4">Get <a href="#">personalized NFT</a> on your wallet</label>
+                                        </div>
+                                        <span class="ntf__include">Include the following information in NFT:</span>
+                                        <div class="card__checkbox ntf__checkbox--earth">
+                                            <input type="checkbox" name="checkbox" value="2" class="card__checkbox--input" id="amount-3">
+                                            <label class="card__checkbox--label" for="amount-3">Amount cancelled</label>
+                                        </div>
+                                        <div class="card__checkbox ntf__checkbox--last">
+                                            <input type="checkbox" name="checkbox" value="4" class="card__checkbox--input" id="send-3">
+                                            <label class="card__checkbox--label" for="send-3">Send achievement on email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cancellation__btn">
+                                    <button>Cancel 000.00 DCRT</button>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cancel__content--right">
+                    <div class="balance__item balance__item--verification status__unverified">
+                        <div class="balance__item--status">
+                            <label>Account status</label>
+                            Partial disclosure
+                        </div>
+                        <div class="verification__info">
+                            <div class="verification__info--title">
+                                Provide more details to benefit from advanced features!
+                            </div>
+                            <a href="#" class="verification__info--btn">
+                                <img src="img/arrow-next.svg" alt="arrow-next">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+  </main>
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

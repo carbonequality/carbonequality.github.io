@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <main class="main main__bg">
+    <div class="logo">
+        <img src="img/logo-black.svg" alt="logo-black">
+    </div>
+    <div class="main__top">
+        <a href="registration.html" class="back">
+            <img src="img/arrow-back.svg" alt="arrow-back">
+            Back
+        </a>
+    </div>
+    <section class="auth reg">
+        <form action="#" class="form auth__form">
+            <div class="form__title reg__title">
+                Registration for individuals
+            </div>
+            <div class="reg__subtitle">Fill the form below</div>
+            <div class="reg__inputs">
+                <input type="text" placeholder="First name*" class="reg__form--input" required>
+                <input type="text" placeholder="Last name*" class="reg__form--input" required>
+                <input type="email" placeholder="E-mail address*" class="reg__form--input" required>
+                <input type="tel" placeholder="Phone number" class="reg__form--input">
+                <input type="password" placeholder="Password*" class="reg__form--input" required>
+                <input type="password" placeholder="Repeat password*" class="reg__form--input" required>
+                <div class="reg__required">* - required fields</div>
+            </div>
+            <div class="reg__complete">
+                <div class="reg__complete--label">
+                    Provide more details to benefit from advanced features
+                </div>
+                <div class="reg__complete--action">
+                    <span>Complete later</span>
+                    <div class="reg__complete--switch"></div>
+                    <span>Complete now</span>
+                </div>
+                <div class="complete__info">
+                    <div class="reg__inputs">
+                        <input type="text" placeholder="Counrty*" class="reg__form--input" required>
+                        <input type="text" placeholder="City*" class="reg__form--input" required>
+                        <input type="text" placeholder="Address*" class="reg__form--input" required>
+                        <input type="number" placeholder="Index*" class="reg__form--input" required>
+                        <input type="text" placeholder="ID number/passport/other official document*" class="reg__form--input" required>
+                        <div class="reg__required">* - required fields</div>
+                    </div>
+                    <div class="complete__doc">
+                        <div class="complete__doc--title">Download the following documents</div>
+                        <div class="complete__doc--text">
+                            <p>
+                                Please take and download a photo of your document that you provided during registration.
+                            </p>
+                            <p>
+                                Make sure the photo is of good quality and clearly shows your entire document (including photo, number, expiration date on it) 
+                            </p>
+                        </div>
+                        <div class="complete__doc--upload">
+                            <label class="input-file">
+                                <input type="file" name="file">		
+                                <span>Download a photo</span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="complete__doc">
+                        <div class="complete__doc--text">
+                            <p>
+                                Please take and download a photo of you and your document that you provided during registration.
+                            </p>
+                            <p>
+                                Make sure the photo is of good quality and clearly shows your entire face and your entire document (including photo, number, expiration date on it) 
+                            </p>
+                        </div>
+                        <div class="complete__doc--upload">
+                            <label class="input-file">
+                                <input type="file" name="file">		
+                                <span>Download a photo</span>
+                          </label>
+                        </div>
+                    </div>
+                    <div class="complete__doc">
+                        <div class="complete__doc--text">
+                            <p>
+                                Please take and download a photo a photo of your document that you provided during registration with the current date.
+                            </p>
+                        </div>
+                        <div class="complete__doc--upload">
+                            <label class="input-file">
+                                <input type="file" name="file">		
+                                <span>Download a photo</span>
+                          </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="reg__form--checkbox">
+                    <input type="checkbox" id="privacy" name="privacy" checked />
+                    <label for="privacy">I have read and agreed with the terms and conditions and regisrty service agreement</label>
+                </div>
+                <div class="reg__form--links">
+                    <a href="#">Terms and conditions</a>
+                    <a href="#">Registry services agreement</a>
+                </div>
+                <div class="reg__form--checkbox checkbox-2">
+                    <input type="checkbox" id="privacy" name="privacy" checked />
+                    <label for="privacy">consent field</label>
+                </div>
+                <button class="btn btn--primary reg__form--btn">Registr</button>
+            </div>
+        </form>
+    </section>
+  </main>
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
