@@ -87,6 +87,12 @@
             </div>
         </section>
         <section class="main__account--content">
+            <div class="main__account--top">
+                <a href="#" class="back">
+                    <img src="img/arrow-back.svg" alt="arrow-back">
+                    Back
+                </a>
+            </div>
             <div class="order">
                 <div class="order__info">
                     <div class="order__info--left">
@@ -179,6 +185,7 @@
                                             </div>
                                             <div class="usdt__wallet">
                                                 0000039858389272
+                                                <button><img src="img/copy-wallet.svg" alt="copy-wallet"></button>
                                             </div>
                                             <div class="usdt__expires">
                                                 <span>Expires in</span>
@@ -261,16 +268,17 @@
                                     <div class="invoice">
                                         <div class="invoice__title">
                                             Initiative’s payment details
+                                            <button><img src="img/copy.svg" alt="copy"></button>
                                         </div>
                                         <div class="invoice__info">
                                             <div class="invoice__text">
-                                                00000010294г87572589023523
+                                                Текст 00000010294г87572589023523к
                                             </div>
                                             <div class="invoice__text">
-                                               325897468547836478
+                                                Текст текст текст текст 325897468547836478
                                             </div>
                                             <div class="invoice__text">
-                                                    325897468547836478
+                                                Текст текст текст текст 325897468547836478
                                             </div>
                                         </div>
                                         <form action="#" method="" class="invoice__form">
@@ -278,7 +286,11 @@
                                                 Client’s payment details
                                             </div>
                                             <textarea class="invoice__form--textarea"></textarea>
-                                            <button type="submit" class="invoice__form--btn">Get the invoice by email</button>
+                                            <div class="card__checkbox">
+                                                <input type="checkbox" name="checkbox" value="1" class="card__checkbox--input" id="save">
+                                                <label class="card__checkbox--label" for="save">Get the invoice by email</label>
+                                            </div>
+                                            <button type="submit" class="invoice__form--btn">Order the invoice</button>
                                         </form>
                                     </div>
                                 </div>
