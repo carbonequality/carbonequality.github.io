@@ -70,5 +70,10 @@ $(document).ready(function() {
       $(".reset").addClass('hide');
       $(".reset__complete").addClass('show');
    });
+
+   $(".header__burger").click(function() {
+      $(".header__menu--mobile").toggleClass('show');
+      $(".header__burger").toggleClass('show');
+   });
   
  });  
