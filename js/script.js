@@ -75,5 +75,11 @@ $(document).ready(function() {
       $(".header__menu--mobile").toggleClass('show');
       $(".header__burger").toggleClass('show');
    });
+
+   $(".header__burger.account").click(function() {
+      $(".account").toggleClass('show');
+      $(".sidebar").toggleClass('show');
+      $("body").toggleClass('no-scroll');
+   });
   
  });  

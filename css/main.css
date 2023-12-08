@@ -5103,4 +5103,489 @@ input:checked ~ .cancellation__content {
     width: calc(100% - 40px);
   }
 
+  /*-------- Account --------*/
+
+  .main__bg {
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+
+  .logo img {
+    height: 44px;
+  }
+
+  .logo {
+    margin-bottom: 40px;
+  }
+
+  .auth {
+    width: 100%;
+    padding: 30px 20px 30px;
+  }
+
+  .form__title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+
+  .form__input--email:before {
+    top: 13px;
+  }
+
+  .form__input--password:before {
+    top: 10px;
+  }
+
+  .main__top {
+    width: 100%;
+  }
+
+  .form__choice {
+    width: 100%;
+  }
+
+  .form__subtitle {
+    margin-top: 80px;
+  }
+
+  .reg__complete {
+    width: 100%;
+  }
+
+  .reg__complete--action {
+    justify-content: space-between;
+  }
+
+  .reg__complete--switch {
+    min-width: 68px;
+    margin: 0 20px;
+  }
+
+  .reg__subtitle {
+    font-size: 18px;
+  }
+
+  .form__thanks .form__title {
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+
+  .form__thanks .form__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .reset .form__title {
+    margin-bottom: 40px;
+  }
+
+  .reset .form__btn {
+    margin-top: 20px;
+  }
+
+  .header__account {
+    padding: 10px 20px;
+  }
+
+  .header__account .logo img {
+    width: auto;
+    height: 34px;
+  }
+
+  .header__account--left .logo {
+    margin-right: 0;
+  }
+
+  .sidebar {
+    display: none;
+    position: fixed;
+    top: 59px;
+    width: 100%;
+  }
+
+  .sidebar.show {
+    display: block;
+  }
+
+  .main__account--content {
+    margin-left: 0;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+
+  .main__account--top {
+    justify-content: flex-start;
+  }
+
+  .back img {
+    height: 10px;
+  }
+
+  .back {
+    font-size: 16px;
+    align-items: center;
+  }
+
+  .back::before {
+    height: 1px;
+    width: 16px;
+    right: -22px;
+    top: 9px;
+  }
+
+  .header__burger.account span {
+    background: #333333;
+  }
+
+  .header__auth--item {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+  .header__auth--item img {
+    margin-right: 10px;
+  }
+
+  .main__account--name {
+    font-size: 22px;
+  }
+
+  .main__account--user {
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .balance {
+    flex-direction: column;
+  }
+
+  .balance__list {
+    width: calc(100% + 20px);
+    margin-left: -20px;
+    border-radius: 0;
+    padding-bottom: 20px;
+    overflow-x: scroll;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .balance__list::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .balance__item {
+    padding: 12px 20px;
+  }
+
+  .balance__item--title {
+    font-size: 18px;
+  }
+
+  .balance__item--price {
+    font-size: 20px;
+  }
+
+  .balance__item--add {
+    bottom: 10px;
+  }
+
+  .orders {
+    width: calc(100% + 20px);
+    padding: 12px 20px;
+    margin-left: -20px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .orders__list::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .orders__title {
+    font-size: 18px;
+  }
+
+  .orders__head {
+    display: none;
+  }
+
+  .orders__item {
+    column-gap: 20px;
+  }
+
+  .certificates {
+    width: calc(100% + 20px);
+    padding: 12px 20px;
+    margin-left: -20px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .certificates__title {
+    font-size: 18px;
+  }
+
+  .certificates__list::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .certificates__item {
+    width: 150px;
+  }
+
+  .certificates__item--photo {
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .certificates__item--title {
+    font-size: 12px;
+  }
+
+  body.no-scroll {
+    overflow-y: hidden;
+  }
+
+  .order__info {
+    flex-direction: column;
+  }
+
+  .main__buy .main__account--content {
+    padding-left: 0;
+  }
+
+  .main__buy .main__account--top {
+    padding: 0 20px;
+  }
+
+  .main__buy .order__info {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .order__info--left {
+    padding: 30px 20px;
+  }
+
+  .order__info--title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .total__right {
+    font-size: 26px;
+  }
+
+  .main__account--content .back {
+    margin-bottom: 10px;
+  }
+
+  .order__info--right {
+    padding: 30px 20px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .pay__tabs {
+    flex-wrap: wrap;
+    row-gap: 17px;
+    column-gap: 55px;
+  }
+
+  .pay__radio {
+    width: 0;
+  }
+
+  .invoice__text {
+    font-size: 16px;
+  }
+
+  input[type="checkbox"] {
+    width: 0;
+  }
+
+  .balance__item.balance__item--verification {
+    margin-top: 30px;
+    width: 100%;
+    max-width: calc(100% - 20px);
+    margin-right: 20px;
+  }
+
+  .main__verification {
+    width: calc(100% - 20px);
+  }
+
+  .main__verification--title {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .cancel__top--info {
+    width: calc(100% - 20px);
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .cancel__content {
+    flex-direction: column;
+  }
+
+  .cancellation__tabs {
+    margin-left: -20px;
+  }
+
+  .cancellation__tab {
+    padding: 20px;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .cancellation__label {
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 30px;
+  }
+
+  .cancellation__label:after {
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    width: 22px;
+    height: 15px
+  }
+
+  .connect__title {
+    font-size: 18px;
+  }
+
+  .connect__change {
+    flex-direction: column;
+  }
+
+  .connect__change span {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .nft__title {
+    font-size: 18px;
+  }
+
+  .card__checkbox--label {
+    font-size: 14px;
+  }
+
+  .card__checkbox--sub span {
+    font-size: 14px;
+  }
+
+  .connect__subtext {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .connect__rd--title {
+    font-size: 14px;
+  }
+
+  .connect__rd--text, .connect__rd--number, .connect__rd--percent {
+    font-size: 14px;
+  }
+
+  .cancel__content--right {
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .confirm {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0px;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 40px 20px 20px 20px;
+  }
+
+  .confirm__title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .confirm__order {
+    margin-bottom: 40px;
+  }
+
+  .reports {
+    margin-top: 0;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 30px 20px;
+  }
+
+  .reports__head {
+    display: none;
+  }
+
+  .reports__list::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .report__actions {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .report__transfer {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .report__order {
+    width: 100%;
+  }
+
+  .reports__title {
+    font-size: 18px;
+  }
+
+  .report__title {
+    font-size: 18px;
+  }
+
+  .report__btn button {
+    width: 100%;
+  }
+
+  .cancel__confirm .confirm {
+    padding: 40px 20px;
+    border-radius: 14px;
+    height: auto;
+  }
+
+  .main__account--content.cancel__confirm {
+    padding: 80px 20px;
+    background-size: cover;
+  }
+
+  .reg-complete {
+    margin-top: 0;
+    margin-left: -20px;
+    box-shadow: none;
+    border-radius: 0;
+    width: calc(100% + 20px);
+  }
+
 }
