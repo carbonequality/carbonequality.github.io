@@ -1,5 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
 
+@font-face {
+  font-family: 'Integral CF Extra';
+  src: url('../font/IntegralCF-ExtraBold.eot');
+  src: local('Integral CF Extra Bold'), local('IntegralCF-ExtraBold'),
+      url('../font/IntegralCF-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-ExtraBold.woff2') format('woff2'),
+      url('../font/IntegralCF-ExtraBold.woff') format('woff'),
+      url('../font/IntegralCF-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF Heavy Oblique';
+  src: url('../font/IntegralCF-HeavyOblique.eot');
+  src: local('Integral CF Heavy Oblique'), local('IntegralCF-HeavyOblique'),
+      url('../font/IntegralCF-HeavyOblique.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-HeavyOblique.woff2') format('woff2'),
+      url('../font/IntegralCF-HeavyOblique.woff') format('woff'),
+      url('../font/IntegralCF-HeavyOblique.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('../font/IntegralCF-Bold.eot');
+  src: local('Integral CF Bold'), local('IntegralCF-Bold'),
+      url('../font/IntegralCF-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-Bold.woff2') format('woff2'),
+      url('../font/IntegralCF-Bold.woff') format('woff'),
+      url('../font/IntegralCF-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('../font/IntegralCF-Regular.eot');
+  src: local('Integral CF'), local('IntegralCF-Regular'),
+      url('../font/IntegralCF-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-Regular.woff2') format('woff2'),
+      url('../font/IntegralCF-Regular.woff') format('woff'),
+      url('../font/IntegralCF-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF Oblique';
+  src: url('../font/IntegralCF-RegularOblique.eot');
+  src: local('Integral CF Oblique'), local('IntegralCF-RegularOblique'),
+      url('../font/IntegralCF-RegularOblique.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-RegularOblique.woff2') format('woff2'),
+      url('../font/IntegralCF-RegularOblique.woff') format('woff'),
+      url('../font/IntegralCF-RegularOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF Medium Oblique';
+  src: url('../font/IntegralCF-MediumOblique.eot');
+  src: local('Integral CF Medium Oblique'), local('IntegralCF-MediumOblique'),
+      url('../font/IntegralCF-MediumOblique.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-MediumOblique.woff2') format('woff2'),
+      url('../font/IntegralCF-MediumOblique.woff') format('woff'),
+      url('../font/IntegralCF-MediumOblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('../font/IntegralCF-Medium.eot');
+  src: local('Integral CF Medium'), local('IntegralCF-Medium'),
+      url('../font/IntegralCF-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-Medium.woff2') format('woff2'),
+      url('../font/IntegralCF-Medium.woff') format('woff'),
+      url('../font/IntegralCF-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF Bold Oblique';
+  src: url('../font/IntegralCF-BoldOblique.eot');
+  src: local('Integral CF Bold Oblique'), local('IntegralCF-BoldOblique'),
+      url('../font/IntegralCF-BoldOblique.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-BoldOblique.woff2') format('woff2'),
+      url('../font/IntegralCF-BoldOblique.woff') format('woff'),
+      url('../font/IntegralCF-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF Demi Bold Oblique';
+  src: url('../font/IntegralCF-DemiBoldOblique.eot');
+  src: local('Integral CF Demi Bold Oblique'), local('IntegralCF-DemiBoldOblique'),
+      url('../font/IntegralCF-DemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-DemiBoldOblique.woff2') format('woff2'),
+      url('../font/IntegralCF-DemiBoldOblique.woff') format('woff'),
+      url('../font/IntegralCF-DemiBoldOblique.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF Demi';
+  src: url('../font/IntegralCF-DemiBold.eot');
+  src: local('Integral CF Demi Bold'), local('IntegralCF-DemiBold'),
+      url('../font/IntegralCF-DemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-DemiBold.woff2') format('woff2'),
+      url('../font/IntegralCF-DemiBold.woff') format('woff'),
+      url('../font/IntegralCF-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+  src: url('../font/IntegralCF-Heavy.eot');
+  src: local('Integral CF Heavy'), local('IntegralCF-Heavy'),
+      url('../font/IntegralCF-Heavy.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-Heavy.woff2') format('woff2'),
+      url('../font/IntegralCF-Heavy.woff') format('woff'),
+      url('../font/IntegralCF-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF Extra Bold Oblique';
+  src: url('../font/IntegralCF-ExtraBoldOblique.eot');
+  src: local('Integral CF Extra Bold Oblique'), local('IntegralCF-ExtraBoldOblique'),
+      url('../font/IntegralCF-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+      url('../font/IntegralCF-ExtraBoldOblique.woff2') format('woff2'),
+      url('../font/IntegralCF-ExtraBoldOblique.woff') format('woff'),
+      url('../font/IntegralCF-ExtraBoldOblique.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neutral Face Regular';
+  src: url('../font/NeutralFace.otf');
+}
+
+@font-face {
+  font-family: 'Neutral Face Bold';
+  src: url('../font/NeutralFace-Bold.otf');
+}
+
 body { 
   -ms-user-select: none; 
   -moz-user-select: none; 
@@ -108,7 +262,7 @@ a {
   display: flex;
   align-items: center;
   color: #ffffff;
-  margin-right: 40px;
+  margin-right: 0px;
   transition: all 0.3s ease;
 }
 
@@ -143,8 +297,9 @@ a {
 }
 
 .header__actions .btn {
-  margin-right: 0;
-  color: #000000;
+  margin-right: 24px;
+  color: #030203;
+  font-weight: 500;
 }
 
 .header__actions .btn:hover {
@@ -180,9 +335,10 @@ a {
 } */
 
 .hero__title {
+  font-family: 'Integral CF Extra';
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 170px;
+  font-size: 150px;
   margin-bottom: 54px;
 }
 
@@ -208,17 +364,17 @@ a {
 }
 
 .block1__title {
+  font-family: 'Integral CF Extra';
   text-transform: uppercase;
-  font-weight: 900;
   font-size: 40px;
   margin-bottom: 54px;
   text-align: center;
 }
 
 .section__title {
+  font-family: 'Integral CF Extra';
   text-transform: uppercase;
-  font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.3;
   margin-bottom: 130px;
   text-align: center;
@@ -359,9 +515,14 @@ footer.footer {
   display: flex;
 }
 
+.footer__nav--last a:first-child {
+  margin-bottom: 8px;
+}
+
 .footer__nav a {
   display: block;
   color: #fff;
+  line-height: 27px;
 }
 
 .footer__nav a:hover {
@@ -404,6 +565,7 @@ footer.footer {
 }
 
 .block2__title {
+  font-family: 'Integral CF Extra';
   font-size: 64px;
   font-weight: 900;
   text-transform: uppercase;
@@ -438,7 +600,8 @@ footer.footer {
 }
 
 .block3__title {
-  font-size: 70px;
+  font-family: 'Integral CF Extra';
+  font-size: 66px;
   text-transform: uppercase;
   position: absolute;
   top: 0;
@@ -489,7 +652,7 @@ footer.footer {
 .block4 p {
   display: block;
   max-width: 460px;
-  margin: 0 auto 30px;
+  margin: 0 auto 69px;
 }
 
 .block4__btn {
@@ -539,8 +702,19 @@ p {
   font-size: 48px;
   margin-top: 130px;
   word-break: keep-all;
-  overflow: hidden;
+  /* overflow: hidden; */
   white-space: nowrap;
+  animation: running-text 10s linear infinite;
+}
+
+@keyframes running-text {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0)
+  }
 }
 
 .running-line span {
@@ -576,11 +750,12 @@ p {
 }
 
 .evaluate__title {
+  font-family: 'Integral CF Extra';
   font-size: 60px;
   text-transform: uppercase;
   text-align: left;
-  margin-right: 45px;
-  font-weight: 900;
+  margin-right: 0px;
+  font-weight: 800;
   margin-bottom: 120px;
 }
 
@@ -589,7 +764,7 @@ p {
 }
 
 .evaluate__title--one {
-  margin-left: -160px;
+  margin-left: -188px;
 }
 
 .evaluate__info {
@@ -640,6 +815,7 @@ p {
 }
 
 .access .block1__title {
+  font-family: 'Integral CF Extra';
   margin-bottom: 131px;
 }
 
@@ -794,7 +970,7 @@ p {
 .evaluation__form {
   width: 100%;
   max-width: 1122px;
-  padding: 60px;
+  padding: 60px 60px 130px;
   background: #ffffff;
   border-radius: 100px;
   margin: auto;
@@ -803,6 +979,7 @@ p {
 }
 
 .evaluation__form--title {
+  font-family: 'Integral CF Extra';
   font-size: 64px;
   text-transform: uppercase;
   color: #000000;
@@ -873,7 +1050,8 @@ textarea {
 }
 
 .footer__subscribes {
-  margin-top: 45px;
+  width: max-content;
+  margin: 0 auto;
 }
 
 .footer__subscribes--title {
@@ -909,14 +1087,23 @@ textarea {
 
 .footer__social {
   display: flex;
-  column-gap: 42px;
-  margin-top: 24px;
+  column-gap: 41px;
+  width: max-content;
 }
 
 .footer__social a {
   display: flex;
-  width: max-content;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
   transition: all 0.3s ease;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.footer__social a img {
+  display: block;
 }
 
 .footer__social a:hover {
@@ -1046,10 +1233,10 @@ input[type="checkbox"] {
 }
 
 .tab-label {
+  font-family: 'Neutral Face Bold';
   display: flex;
   align-items: center;
   padding: 35px 0 35px 40px;
-  font-weight: bold;
   cursor: pointer;
   position: relative;
   text-transform: uppercase;
@@ -1137,10 +1324,10 @@ input:checked ~ .tab-content {
 }
 
 .simply__title {
+  font-family: 'Neutral Face Bold';
   font-size: 45px;
-  font-weight: 600;
   text-transform: uppercase;
-  max-width: 400px;
+  max-width: 440px;
   margin-bottom: 30px;
 }
 
@@ -1293,8 +1480,8 @@ input:checked ~ .tab-content {
 }
 
 .registry__title {
+  font-family: 'Neutral Face Bold';
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 40px;
   line-height: 1.3;
   margin-bottom: 52px;
@@ -1362,6 +1549,7 @@ input:checked ~ .tab-content {
 }
 
 .fotoprint__title {
+  font-family: 'Integral CF Extra';
   margin-bottom: 67px;
   font-size: 40px;
   font-weight: 900;
@@ -1401,6 +1589,7 @@ input:checked ~ .tab-content {
 }
 
 .assessment__title {
+  font-family: 'Neutral Face Regular';
   font-size: 40px;
   font-weight: 400;
   text-align: center;
@@ -1409,6 +1598,7 @@ input:checked ~ .tab-content {
 }
 
 .assessment__title span {
+  font-family: 'Neutral Face Bold';
   font-weight: bold;
   color: #00FC90;
 }
@@ -2179,6 +2369,10 @@ input[type="checkbox"]:checked > label:before {
 
 .sidebar__menu--item.active {
   background: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+}
+
+.sidebar__menu--item.no-active {
   pointer-events: none;
 }
 
@@ -4296,6 +4490,15 @@ input:checked ~ .cancellation__content {
   display: none;
 }
 
+.header__actions a.btn__profile {
+  display: none;
+}
+
+.btn__profile img {
+  width: 36px;
+  height: 36px;
+}
+
 /*------ Mobile Version ------*/
 
 @media (max-width: 992px) {
@@ -4782,13 +4985,14 @@ input:checked ~ .cancellation__content {
   }
 
   .footer__social {
-    column-gap: 30px;
+    column-gap: 40px;
     justify-content: center;
     margin-bottom: 30px;
   }
 
   .footer__social a img {
-    width: 36px;
+    width: 30px;
+    height: 30px;
   }
 
   .form .btn {
@@ -5410,7 +5614,7 @@ input:checked ~ .cancellation__content {
   }
 
   input[type="checkbox"] {
-    width: 0;
+    width: calc(100% - 80px);
   }
 
   .balance__item.balance__item--verification {
@@ -5586,6 +5790,14 @@ input:checked ~ .cancellation__content {
     box-shadow: none;
     border-radius: 0;
     width: calc(100% + 20px);
+  }
+
+  .line {
+    margin-top: 0;
+  }
+
+  .footer__subscribes {
+    margin-top: 30px;
   }
 
 }
